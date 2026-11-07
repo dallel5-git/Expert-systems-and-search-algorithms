@@ -1,0 +1,27 @@
+{
+  "name": "Base Zoologie - Identification de l'Autruche",
+  "description": "Exemple du cours pour l'identification de l'autruche",
+  "facts": [
+    "plumes",
+    "a des plumes",
+    "long cou",
+    "longues pattes"
+  ],
+  "rules": [
+    {
+      "id": "r1",
+      "premises": ["vole", "pond des œufs"],
+      "conclusion": "oiseau"
+    },
+    {
+      "id": "r2",
+      "premises": ["a des plumes"],
+      "conclusion": "oiseau"
+    },
+    {
+      "id": "r3",
+      "premises": ["oiseau", "long cou", "longues pattes"],
+      "conclusion": "autruche"
+    }
+  ]
+}

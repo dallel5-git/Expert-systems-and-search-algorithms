@@ -1,0 +1,26 @@
+{
+  "name": "Base Géométrie - Classification des Triangles",
+  "description": "Exemple du cours pour la classification d'un triangle",
+  "facts": [
+    "ordre vaut 3",
+    "un angle droit",
+    "deux côtés de même taille"
+  ],
+  "rules": [
+    {
+      "id": "R1",
+      "premises": ["ordre vaut 3"],
+      "conclusion": "triangle"
+    },
+    {
+      "id": "R2",
+      "premises": ["triangle", "un angle droit"],
+      "conclusion": "triangle rectangle"
+    },
+    {
+      "id": "R3",
+      "premises": ["triangle", "deux côtés de même taille"],
+      "conclusion": "triangle isocèle"
+    }
+  ]
+}

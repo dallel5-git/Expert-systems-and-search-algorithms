@@ -1,0 +1,46 @@
+{
+  "name": "Base Pâtisserie - Les Tartes",
+  "description": "Exemple du cours pour la préparation de tartes aux fruits",
+  "facts": [
+    "pommes",
+    "œufs",
+    "poires",
+    "abricots",
+    "farine",
+    "beurre",
+    "sucre",
+    "sel"
+  ],
+  "rules": [
+    {
+      "id": "R1",
+      "premises": ["farine", "beurre", "œufs", "sel"],
+      "conclusion": "pâte"
+    },
+    {
+      "id": "R2",
+      "premises": ["pommes", "sucre"],
+      "conclusion": "pommes sucrées"
+    },
+    {
+      "id": "R3",
+      "premises": ["pommes sucrées", "pâte"],
+      "conclusion": "tarte aux pommes"
+    },
+    {
+      "id": "R4",
+      "premises": ["abricots", "pâte"],
+      "conclusion": "tarte aux abricots"
+    },
+    {
+      "id": "R5",
+      "premises": ["poires", "pâte"],
+      "conclusion": "tarte aux poires"
+    },
+    {
+      "id": "R6",
+      "premises": ["cerises", "pâte"],
+      "conclusion": "tarte aux cerises"
+    }
+  ]
+}

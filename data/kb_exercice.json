@@ -1,0 +1,35 @@
+{
+  "name": "Base Exercice Formel - Dérivation de C",
+  "description": "Exercice type examen ENSI : A, B, C, D, E, F",
+  "facts": [
+    "E",
+    "F"
+  ],
+  "rules": [
+    {
+      "id": "R1",
+      "premises": ["A", "B"],
+      "conclusion": "C"
+    },
+    {
+      "id": "R2",
+      "premises": ["F", "D"],
+      "conclusion": "A"
+    },
+    {
+      "id": "R3",
+      "premises": ["D", "E"],
+      "conclusion": "B"
+    },
+    {
+      "id": "R4",
+      "premises": ["B", "D"],
+      "conclusion": "F"
+    },
+    {
+      "id": "R5",
+      "premises": ["E", "F"],
+      "conclusion": "D"
+    }
+  ]
+}

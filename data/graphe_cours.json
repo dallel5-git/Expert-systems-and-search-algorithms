@@ -1,0 +1,45 @@
+{
+  "name": "Graphe de référence du cours",
+  "description": "Graphe orienté et pondéré à 9 sommets illustrant la recherche informée et non informée",
+  "start_node": "G",
+  "goal_node": "K",
+  "nodes": ["G", "A", "B", "C", "D", "E", "F", "H", "K"],
+  "positions": {
+    "G": [0.0, 2.0],
+    "A": [2.0, 4.0],
+    "D": [2.0, 0.0],
+    "C": [3.0, 2.0],
+    "B": [5.0, 4.0],
+    "E": [5.0, 0.0],
+    "H": [7.0, 4.0],
+    "F": [7.0, 0.0],
+    "K": [9.0, 2.0]
+  },
+  "edges": [
+    {"from": "G", "to": "A", "cost": 10.0},
+    {"from": "G", "to": "D", "cost": 5.0},
+    {"from": "G", "to": "C", "cost": 10.0},
+    {"from": "D", "to": "E", "cost": 3.0},
+    {"from": "D", "to": "A", "cost": 4.0},
+    {"from": "A", "to": "B", "cost": 4.0},
+    {"from": "A", "to": "E", "cost": 8.0},
+    {"from": "C", "to": "K", "cost": 15.0},
+    {"from": "E", "to": "F", "cost": 2.0},
+    {"from": "E", "to": "D", "cost": 3.0},
+    {"from": "B", "to": "H", "cost": 6.0},
+    {"from": "B", "to": "A", "cost": 3.0},
+    {"from": "F", "to": "K", "cost": 4.0},
+    {"from": "H", "to": "K", "cost": 7.0}
+  ],
+  "heuristics": {
+    "G": 13.0,
+    "A": 12.0,
+    "B": 12.0,
+    "C": 14.0,
+    "D": 8.0,
+    "E": 6.0,
+    "F": 4.0,
+    "H": 7.0,
+    "K": 0.0
+  }
+}
